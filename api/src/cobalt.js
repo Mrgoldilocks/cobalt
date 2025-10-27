@@ -6,10 +6,10 @@ import cluster from "node:cluster";
 import path from "path";
 import { fileURLToPath } from "url";
 
-import { env, isCluster } from "./config.js"
-import { Red } from "./misc/console-text.js";
-import { initCluster } from "./misc/cluster.js";
-import { setupEnvWatcher } from "./core/env.js";
+import { env, isCluster } from "https://cdn.jsdelivr.net/gh/Mrgoldilocks/cobalt@main/api/src/config.js"
+import { Red } from "https://cdn.jsdelivr.net/gh/Mrgoldilocks/cobalt@main/api/misc/console-text.js";
+import { initCluster } from "https://cdn.jsdelivr.net/gh/Mrgoldilocks/cobalt@main/api/src/misc/cluster.js";
+import { setupEnvWatcher } from "https://cdn.jsdelivr.net/gh/Mrgoldilocks/cobalt@main/api/src/core/env.js";
 
 const app = express();
 
