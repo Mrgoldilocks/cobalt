@@ -3,7 +3,7 @@
     "description": "save what you love",
     "version": "11.5",
     "author": "imput",
-    "exports": "./src/cobalt.js",
+    "exports": "https://cdn.jsdelivr.net/gh/Mrgoldilocks/cobalt@main/src/cobalt.js",
     "type": "module",
     "engines": {
         "node": ">=18"
